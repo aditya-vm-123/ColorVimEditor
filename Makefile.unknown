@@ -1,0 +1,7 @@
+all: textEditor
+
+textEditor: tE.c
+	$(CC) -o tE tE.c
+
+clean:
+	rm tE
